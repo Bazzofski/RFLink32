@@ -478,9 +478,11 @@ boolean PluginTX_017(byte function, const char *string)
             button = RTS_CMD_MY;
             break;
         case VALUE_UP:
+        case VALUE_OFF:
             button = RTS_CMD_UP;
             break;
         case VALUE_DOWN:
+        case VALUE_ON:
             button = RTS_CMD_DOWN;
             break;
         case VALUE_PAIR:
